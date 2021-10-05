@@ -21,7 +21,7 @@ export default function Footer() {
                 <div className="footer_column">
                     <h2>Location</h2>
 
-                    <p>Andorkilla, Bandarban, Chitagong</p>
+                    <p>Andorkilla, Bandarban, Chittagong</p>
 
                     <ul className="scial">
                         <li><i className="fab fa-facebook-square"></i></li>
@@ -49,7 +49,7 @@ export default function Footer() {
                 </div>
             </div>
             <div className="small_footer">
-                <h3>COPYRIGHT © Tutor Academy 2021</h3>
+                <h3>Copyright © Tutor Academy 2021</h3>
             </div>
         </div>
     )
