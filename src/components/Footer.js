@@ -43,7 +43,7 @@ export default function Footer() {
                         </li>
 
                         <li>
-                            <Link to='/allsubjects'>Courses</Link>
+                            <Link to='/allsubjects'>Services</Link>
                         </li>
                     </ul>
                 </div>

@@ -70,7 +70,7 @@ export default function Header() {
                             </li>
 
                             <li>
-                                <Link to="/allsubjects">COURSES</Link>
+                                <Link to="/allsubjects">SERVICES</Link>
                             </li>
                         </ul>
                     </div>
@@ -109,7 +109,7 @@ export default function Header() {
 
                                     <Link to="/allsubjects">
                                         <li>
-                                            COURSES
+                                            SERVICES
                                         </li>
                                     </Link>
                                 </ul>
