@@ -9,6 +9,9 @@ export default function ContactUs() {
         <div className="main_style">
             <div className="upper_cover">
                 <h1>Contact Us</h1>
+                <hr style={{
+                    margin: '0% 20% 0% 20%',
+                }} />
             </div>
             <div className="con_body">
                 <div className="short_con">

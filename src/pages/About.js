@@ -11,6 +11,9 @@ export default function About() {
         <div className="main_style">
             <div className="upper_cover">
                 <h1>About Us</h1>
+                <hr style={{
+                    margin: '0% 20% 0% 20%',
+                }} />
             </div>
             <div className="body_sec">
                 <div className="ab_column">

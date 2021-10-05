@@ -108,14 +108,15 @@
   padding: 75px 0;
 }
 .main_style .popular_subjects .main_container_co {
-  width: 1200px;
+  width: 100%;
   margin: 0 auto;
 }
 .main_style .popular_subjects .main_container_co .row_he {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 25px 0;
+  padding: 15px 0;
+  /* border: 1px solid black; */
   margin-bottom: 15px;
 }
 .main_style .popular_subjects .main_container_co .row_he h1 {
@@ -126,7 +127,7 @@
   cursor: pointer;
   border: 1px solid transparent;
   padding: 8px;
-  width: 120px;
+  width: 190px;
   background-color: var(--buttonColor1);
   font-weight: 600;
   border-radius: 3px;
