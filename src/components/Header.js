@@ -27,9 +27,8 @@ export default function Header() {
     const { pathname } = useLocation();
 
     useEffect(() => {
-        if (colors) {
-            setColors(!colors);
-        }
+        setColors(!colors);
+
     }, [pathname])
 
     const headerProPic = () => {
@@ -53,7 +52,7 @@ export default function Header() {
                 <div className="column">
                     <div className="hlogo">
                         <Link to="/">
-                            <h1><span>Tutor</span> LMS</h1>
+                            <h1><span style={{ fontSize: '35px' }}>Tutor</span> <span style={{ fontSize: '30px' }}>Academy</span></h1>
                         </Link>
                     </div>
                 </div>
@@ -71,7 +70,7 @@ export default function Header() {
                             </li>
 
                             <li>
-                                <Link to="/allsubjects">SUBJECTS</Link>
+                                <Link to="/allsubjects">COURSES</Link>
                             </li>
                         </ul>
                     </div>
@@ -110,7 +109,7 @@ export default function Header() {
 
                                     <Link to="/allsubjects">
                                         <li>
-                                            SUBJECTS
+                                            COURSES
                                         </li>
                                     </Link>
                                 </ul>

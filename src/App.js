@@ -9,7 +9,7 @@ import Footer from './components/Footer';
 
 function App() {
 
-  const mainRoute = ["/", "/about", "/contact", "/allsubjects"];
+  const mainRoute = ["/", "/home", "/about", "/contact", "/allsubjects"];
   let location = window.location.pathname;
 
   const headerRoute = () => {

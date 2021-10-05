@@ -6,7 +6,7 @@ export default function ContactUs() {
 
 
     return (
-        <div className="maininde">
+        <div className="main_style">
             <div className="upper_cover">
                 <h1>Contact Us</h1>
             </div>
@@ -33,7 +33,7 @@ export default function ContactUs() {
                             <h3>Location</h3>
                         </div>
                         <div className="con_sort_body">
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                            <p>Andorkilla, Bandarban, Chittagong</p>
                         </div>
                     </div>
                     <div className="column_con">
@@ -44,7 +44,7 @@ export default function ContactUs() {
                             <h3>Email</h3>
                         </div>
                         <div className="con_sort_body">
-                            <p>Lorem ipsum dolor sit amet co</p>
+                            <p>tutor.academy@email.com</p>
                         </div>
                     </div>
                 </div>

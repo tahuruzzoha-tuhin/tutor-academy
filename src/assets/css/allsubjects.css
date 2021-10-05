@@ -1,16 +1,17 @@
 /*Popular subjects*/
 
-/* .my-sub{
-  display: grid;
-  grid-template-columns: repeat(3, 1fr );
-  grid-gap: 10px;
-} */
-.maininde .popular_subjects {
+.my-card:hover{
+  
+  box-shadow: 0px 8px 8px 0px gray;
+  transition: 0.3s;
+  height: auto;
+}
+.main_style .popular_subjects {
   padding: 75px 0;
   width: 1200px;
   margin: 0 auto;
 }
-.maininde .popular_subjects .subject_area {
+.main_style .popular_subjects .subject_area {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(3, 2fr);
@@ -18,7 +19,7 @@
   justify-content: center;
   align-items: center;
 }
-.maininde .popular_subjects .subject_area .subject_in_cards {
+.main_style .popular_subjects .subject_area .subject_in_cards {
   position: relative;
   width: 100%;
   height: 360px;
@@ -28,16 +29,16 @@
   overflow: hidden;
   transition: 0.5s ease-in-out;
 }
-.maininde .popular_subjects .subject_area .subject_in_cards:hover {
+.main_style .popular_subjects .subject_area .subject_in_cards:hover {
   box-shadow: 0px 0px 12px 5px #e8e8e8;
 }
-.maininde .popular_subjects .subject_area .subject_in_cards .subject_head {
+.main_style .popular_subjects .subject_area .subject_in_cards .subject_head {
   position: relative;
   height: 190px;
   background: linear-gradient(to right, var(--mainCovHeader), #000);
   margin-bottom: 15px;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -51,7 +52,7 @@ width: 65px;
   border-radius: 50%;
   border: 2px solid #13a15f;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -65,7 +66,7 @@ width: 65px;
   right: 0.5px;
   border-radius: 50%;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -74,7 +75,7 @@ width: 65px;
   width: 100%;
   height: 100%;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -87,11 +88,11 @@ width: 65px;
   opacity: 0.65;
   object-fit: cover;
 }
-.maininde .popular_subjects .subject_area .subject_in_cards .subject_body {
+.main_style .popular_subjects .subject_area .subject_in_cards .subject_body {
   padding: 8px;
   text-align: center;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -101,11 +102,11 @@ width: 65px;
   margin-bottom: 10px;
   color: var(--h1Fontcolor);
 }
-.maininde .popular_subjects .al_subject_area .subject_in_cards .subject_body p {
+.main_style .popular_subjects .al_subject_area .subject_in_cards .subject_body p {
   font-size: 15px;
   margin-bottom: 10px;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -116,7 +117,7 @@ width: 65px;
   display: flex;
   justify-content: space-evenly;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -125,7 +126,7 @@ width: 65px;
   font-size: 13px;
   font-weight: 500;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -134,7 +135,7 @@ width: 65px;
   i {
   margin-right: 10px;
 }
-.maininde .popular_subjects .al_subject_area .subject_in_cards .subject_tail {
+.main_style .popular_subjects .al_subject_area .subject_in_cards .subject_tail {
   width: 100%;
   padding: 8px 5px;
   background-color: #eeeeee73;
@@ -143,7 +144,7 @@ width: 65px;
   z-index: 150;
   font-size: 12px;
 }
-.maininde
+.main_style
   .popular_subjects
   .subject_area
   .subject_in_cards
@@ -153,28 +154,28 @@ width: 65px;
   margin-right: 5px;
 }
 @media screen and (max-width: 1300px) {
-  .maininde .popular_subjects {
+  .main_style .popular_subjects {
     width: 100%;
     padding: 50px 25px;
   }
 }
 @media screen and (max-width: 370px) {
-  .maininde .popular_subjects .subject_area .subject_in_cards {
+  .main_style .popular_subjects .subject_area .subject_in_cards {
     width: 100%;
     margin: 15px 0;
   }
-  .maininde .popular_subjects .subject_area {
+  .main_style .popular_subjects .subject_area {
     display: block;
   }
 }
 @media screen and (max-width: 250px) {
-  .maininde .popular_subjects .subject_area .subject_in_cards .subject_head {
+  .main_style .popular_subjects .subject_area .subject_in_cards .subject_head {
     height: 150px;
   }
-  .maininde .popular_subjects {
+  .main_style .popular_subjects {
     padding: 0 5px;
   }
-  .maininde .upper_cover h1 {
+  .main_style .upper_cover h1 {
     font-size: 25px;
   }
 }

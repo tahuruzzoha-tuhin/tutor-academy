@@ -3,7 +3,6 @@ import '../assets/css/allsubjects.css';
 import CourseCard from './CourseCard';
 import { Row } from 'react-bootstrap';
 
-
 export default function InAllSubjects() {
 
     const [courses, setCourses] = useState([]);
@@ -16,9 +15,12 @@ export default function InAllSubjects() {
 
 
     return (
-        <div className='maininde'>
+        <div className=' main_style'>
             <div className="upper_cover">
-                <h1>Subjects</h1>
+                <h1>Our Latest Courses</h1>
+                <hr style={{
+                    margin: '0% 20% 0% 20%',
+                }} />
             </div>
 
             <Row xs={1} md={3} className="g-4 m-3 ">

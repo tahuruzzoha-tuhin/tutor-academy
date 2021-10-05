@@ -66,6 +66,7 @@ h2 {
 }
 .footer_main .footer_mid .footer_column ul.links li {
   margin-bottom: 5px;
+  border-bottom: 1px solid gray;
 }
 .footer_main .footer_mid .footer_column ul.links li a {
   text-decoration: none;

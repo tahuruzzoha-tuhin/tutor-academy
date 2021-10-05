@@ -15,6 +15,7 @@ import { Link } from "react-router-dom";
 import CourseCard from './CourseCard';
 
 
+
 export default function Home() {
 
     const [courses, setCourses] = useState([]);
@@ -27,10 +28,10 @@ export default function Home() {
 
 
     return (
-        <div className='maininde'>
+        <div className=' main_style'>
             <div className="uppercover">
                 <div className="cov_text">
-                    <h1>Eyekon<span>LMS</span> For Learning</h1>
+                    <h1>Tutor<h2 className="d-inline" style={{ color: 'orange', fontSize: '37px' }}> Academy</h2> For Learning</h1>
                     <p>Education is the most powerful weapon which you can use to change the world</p>
                     <Link to='/home'><button>Login</button></Link>
                 </div>
@@ -64,19 +65,23 @@ export default function Home() {
             <div className="popular_subjects">
                 <div className="main_container_co">
                     <div className="row_he">
-                        <h1>Popular Subjects</h1>
+                        <h1>Popular Courses</h1>
                         <Link to={'/allsubjects'}><button>Browse More</button></Link>
                     </div>
-                    <Row xs={1} md={3} className="g-4 m-3">
-                        {
-                            courses.map(course => <CourseCard
-                                key={course.key}
-                                course={course}></CourseCard>)
-                        }
-                    </Row>
 
+                    <hr />
                 </div>
+
             </div>
+            <Row xs={1} md={3} className="g-4 mx-3 mb-3">
+                {
+                    courses.map(course => <div className="subject_area">
+                        <CourseCard
+                            key={course.key}
+                            course={course}></CourseCard>
+                    </div>)
+                }
+            </Row>
             <div className="mid_free">
                 <h3>Start today for getting Improve <span>Your knowledge</span></h3>
                 <h1>You can be your own guiding star with our help!</h1>
@@ -108,7 +113,7 @@ export default function Home() {
             <div className="get_start_sec">
                 <div className="main_get_start">
                     <div className="get_start_column">
-                        <h1>Get Started With Eyekon LMS</h1>
+                        <h1>Get Started With Tutor Academy</h1>
                         <div className="get_row">
                             <div className="row_columno">
                                 <img src={pencil} alt="pencil" />

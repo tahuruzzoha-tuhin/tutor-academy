@@ -8,26 +8,30 @@ export default function About() {
 
 
     return (
-        <div className="maininde">
+        <div className="main_style">
             <div className="upper_cover">
                 <h1>About Us</h1>
             </div>
             <div className="body_sec">
                 <div className="ab_column">
                     <h1>Who We Are?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis expedita quam, perferendis itaque nam? In labore rerum autem, eveniet ipsa, recusandae omnis, laudantium eius culpa aut illum sint deserunt.Illum amet, temporibus aspernatur esse similique eius! Voluptatem natus nihil voluptatibus voluptates deserunt autem similique rem. Excepturi libero, reprehenderit, ratione obcaecati, perferendis molestias in minima est amet eaque fugit eius?</p>
+                    <p>Tutor Academy comes with a revolutionary drag & drop system to create resourceful courses. It’s feature-rich, yet easy to use. Our design is centered around enhancing your experience, so you better believe it’s gonna be amazing!This LMS comes with a revolutionary drag & drop system to create resourceful courses. It’s feature-rich, yet easy to use. Our design is centered around enhancing your experience, so you better believe it’s gonna be amazing!</p>
                 </div>
                 <div className="ab_column">
-                    <img src={ab1} alt="image" />
+                    <img src={ab1} alt="" />
                 </div>
             </div>
             <div className="body_sec">
                 <div className="ab_column">
-                    <img src={ab2} alt="image" />
+                    <img src={ab2} alt="" />
                 </div>
                 <div className="ab_column">
                     <h1>What We Do?</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis facilis expedita quam, perferendis itaque nam? In labore rerum autem, eveniet ipsa, recusandae omnis, laudantium eius culpa aut illum sint deserunt.Illum amet, temporibus aspernatur esse similique eius! Voluptatem natus nihil voluptatibus voluptates deserunt autem similique rem. Excepturi libero, reprehenderit, ratione obcaecati, perferendis molestias in minima est amet eaque fugit eius?</p>
+                    <p>Monetization is a breeze with Tutor Academy. Sell them for a fair price, or give away for free! We’ve
+                        teamed up with big names like WooCommerce, Easy Digital Downloads, Restrict Content Pro,
+                        and Paid Membership Pro to bring a seamless eCommerce experience. Monetization is a breeze with this LMS. Sell them for a fair price, or give away for free! We’ve
+                        teamed up with big names like WooCommerce, Easy Digital Downloads, Restrict Content Pro,
+                        and Paid Membership Pro to bring a seamless eCommerce experience</p>
                 </div>
             </div>
             <div className="inde_counter">

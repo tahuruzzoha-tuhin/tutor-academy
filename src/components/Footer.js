@@ -10,15 +10,17 @@ export default function Footer() {
             <div className="footer_mid">
                 <div className="footer_column">
                     <div className="lg">
-                        <h1>Tutor <span>LMS</span></h1>
+                        <h1>Tutor <span>Academy</span></h1>
+                        <hr />
                         <h3>We Equip Smartness</h3>
                     </div>
                     <div className="ab">
-                        <p>Tutor LMS partners with more than 200 leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.</p>
+                        <p>Tutor Academy partners with more than 200 leading universities and companies to bring flexible, affordable, job-relevant online learning to individuals and organizations worldwide.</p>
                     </div>
                 </div>
                 <div className="footer_column">
-                    <h2><u>Location</u></h2>
+                    <h2>Location</h2>
+
                     <p>Andorkilla, Bandarban, Chitagong</p>
 
                     <ul className="scial">
@@ -41,13 +43,13 @@ export default function Footer() {
                         </li>
 
                         <li>
-                            <Link to='/allsubjects'>Subjects</Link>
+                            <Link to='/allsubjects'>Courses</Link>
                         </li>
                     </ul>
                 </div>
             </div>
             <div className="small_footer">
-                <h3>COPYRIGHT © Tutor LMS 2021</h3>
+                <h3>COPYRIGHT © Tutor Academy 2021</h3>
             </div>
         </div>
     )
