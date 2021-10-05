@@ -36,20 +36,20 @@ export default function Home() {
                     <Link to='/home'><button>Login</button></Link>
                 </div>
                 <div className="cov_img">
-                    <img src={cov} alt="image" />
+                    <img src={cov} alt="" />
                 </div>
             </div>
             <div className="cards_section">
                 <div className="cards_indi">
                     <div className="card_ic">
-                        <img src={instructor} alt="instructor" />
+                        <img src={instructor} alt="" />
                     </div>
                     <h3>Expert Instructors</h3>
                     <p>Meet Best Instructors Around the Island and Enroll for Best Lessons of them. </p>
                 </div>
                 <div className="cards_indi">
                     <div className="card_ic">
-                        <img src={support} alt="support" />
+                        <img src={support} alt="" />
                     </div>
                     <h3>Customer Support</h3>
                     <p>24/7 Reliable and Efficient Customer Support. Contact us for any Technical Issue you Faced </p>

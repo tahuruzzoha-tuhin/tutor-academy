@@ -27,7 +27,7 @@
 }
 .main_style .con_body .short_con .column_con:hover {
   background-image: none;
-  background-color: #1ba064;
+  background-color: #8a1ba0;
 }
 .main_style .con_body .short_con .column_con:hover .con_upprt h3 {
   color: #fff;
@@ -46,7 +46,7 @@
 .main_style .con_body .short_con .column_con .con_upprt .icon_con {
   width: 60px;
   height: 60px;
-  border: 1px solid #80e984;
+  border: 1px solid #b180e9;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@
 .main_style .con_body .short_con .column_con .con_upprt h3 {
   font-weight: 600;
   font-size: 22px;
-  color: #2ab432;
+  color: #6018be;
 }
 .main_style .con_body .short_con .column_con .con_sort_body {
   width: 100%;
@@ -102,7 +102,7 @@
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: bold;
-  color: #17721c;
+  color: #6018be;
 }
 .main_style .con_form .sect p input,
 p textarea {
@@ -115,7 +115,7 @@ p textarea {
 }
 .main_style .con_form .sect p input:focus,
 p textarea:focus {
-  border-color: #2ab432;
+  border-color: #6018be;
 }
 .main_style .con_form p.last {
   text-align: center;
@@ -124,7 +124,7 @@ p textarea:focus {
   font-size: 13px;
   padding: 8px;
   width: 150px;
-  background-color: #2ab432;
+  background-color: #6018be;
   border: 1px solid transparent;
   color: #fff;
   cursor: pointer;

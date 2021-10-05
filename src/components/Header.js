@@ -7,7 +7,7 @@ import { AnimatePresence, motion } from 'framer-motion';
 
 
 export default function Header() {
-    const [colors, setColors] = useState(false);
+    const [paths, setPath] = useState(false);
 
     const mobnavani = {
         visible: {
@@ -21,13 +21,15 @@ export default function Header() {
     }
 
     const hambutton = () => {
-        setColors(!colors);
+        setPath(!paths);
     }
 
-    const { pathname } = useLocation();
+    const pathname = useLocation();
 
     useEffect(() => {
-        setColors(!colors);
+        if (paths) {
+            setPath(!paths);
+        }
 
     }, [pathname])
 
@@ -48,7 +50,7 @@ export default function Header() {
 
     return (
         <>
-            <nav>
+            <nav style={{ boxShadow: '0px 5px 5px 0px gray' }}>
                 <div className="column">
                     <div className="hlogo">
                         <Link to="/">
@@ -87,7 +89,7 @@ export default function Header() {
             <AnimatePresence exitBeforeEnter>
                 {
 
-                    colors ?
+                    paths ?
                         <motion.div className="hammenu" variants={mobnavani} animate='visible' initial='hidden' exit="hidden">
                             <div className="menham">
                                 <ul>

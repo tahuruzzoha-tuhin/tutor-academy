@@ -5,7 +5,7 @@ import InAllSubjects from "../pages/InAllSubjects";
 import NotFound from "../pages/NotFound";
 
 
-export default [
+const pathUrl = [
     {
         path: '/',
         exact: true,
@@ -31,3 +31,5 @@ export default [
         components: () => <NotFound />
     }
 ]
+
+export default pathUrl;
